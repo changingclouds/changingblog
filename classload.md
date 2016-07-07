@@ -25,6 +25,7 @@ JNDI是java的标准服务，它的代码由启动类加载器去加载，jndi�
 
 线程上下文类加载器（Thread Context ClassLoader）这个类加载器可以通过java.lang.Thread类的setContextClassLoader()方法进行设置。
 
+父类加载器请求子类加载器去完成类加载操作
 JNDI JDBC JCE 
 
 OSGI 热部署
